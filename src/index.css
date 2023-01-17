@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 
-#hero {
-    background-color: 'black'
-}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+    }
