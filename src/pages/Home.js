@@ -91,56 +91,7 @@ export default function Home() {
 
                     </div>
 
-                    {/* <!-- items container 2 --> */}
-                    <div className="item-container mt-10">
-                        {/* <!-- item 1 --> */}
-                        <div className="group item">
-                            <img src="images/orcehstra.png" alt=""
-                                className="hidden w-full duration-200 md:block group-hover:scale-110" />
-                            {/* <!-- item gradient --> */}
-                            <div className="item-gradient"></div>
-                            {/* <!-- item text --> */}
-                            <h5>
-                                Meet Jan
-                            </h5>
-                        </div>
-                        {/* <!-- item 2 --> */}
-                        <div className="group item">
-                            <img src="images/sheet-music.png" alt=""
-                                className="hidden w-full duration-200 md:block group-hover:scale-110" />
-                            {/* <!-- item gradient --> */}
-                            <div className="item-gradient"></div>
-                            {/* <!-- item text --> */}
-                            <h5>
-                                Listen
-                            </h5>
-                        </div>
-
-                        {/* <!-- item 3 --> */}
-                        <div className="group item">
-                            <img src="images/harpstrings.png" alt=""
-                                className="hidden w-full duration-200 md:block group-hover:scale-110" />
-                            {/* <!-- item gradient --> */}
-                            <div className="item-gradient"></div>
-                            {/* <!-- item text --> */}
-                            <h5>
-                                Reviews
-                            </h5>
-                        </div>
-
-                        {/* <!-- item 4 --> */}
-                        <div className="group item">
-                            <img src="images/orcehstra.png" alt=""
-                                className="hidden w-full duration-200 md:block group-hover:scale-110" />
-                            {/* <!-- item gradient --> */}
-                            <div className="item-gradient"></div>
-                            {/* <!-- item text --> */}
-                            <h5>
-                                Events
-                            </h5>
-                        </div>
-
-                    </div>
+                    
                     {/* <!-- bottom button container --> */}
                     <div className="flex justify-center mt-10 md:hidden">
                         <button className="btn w-full md:hidden">See All</button>
