@@ -10,7 +10,14 @@ module.exports = {
      lg: '976px',
      xl: '1440px' 
     },
-    extend: {},
+    extend: {
+       fontFamily: {
+        sans: ['Montserrat', 'sans-serif']
+      },
+      letterSpacing: {
+        widest: '.3em'
+      }
+    },
   },
   plugins: [],
 }
