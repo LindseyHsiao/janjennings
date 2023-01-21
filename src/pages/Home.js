@@ -11,7 +11,7 @@ export default function Home() {
          */}
                 <div className="relative container flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0">
                     {/* <!-- Image --> */}
-                    <img src={studentHarp} alt="" width={100}/>
+                    <img src={studentHarp} alt="Student playing harp" className='max-w-full h-auto'/>
 
                     {/* <!-- text container --> */}
                     <div className="top-48 pr-0 bg-white md:absolute md:right-0 md:py-20 md:pl-20">
@@ -79,7 +79,7 @@ export default function Home() {
 
                         {/* <!-- item 4 --> */}
                         <div className="group item">
-                            <img src="images/orcehstra.png" alt=""
+                            <img src={orchestra} alt=""
                                 className="hidden w-full duration-200 md:block group-hover:scale-110" />
                             {/* <!-- item gradient --> */}
                             <div className="item-gradient"></div>

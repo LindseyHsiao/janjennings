@@ -1,9 +1,12 @@
 import facebookIcon from '../assets/images/icon-facebook.svg'
+import instagramIcon from '../assets/images/icon-instagram.svg'
+import pinterestIcon from '../assets/images/icon-pinterest.svg'
+import logo from '../assets/images/logo.png'
 
 
 export default function Footer(){
     return(
-        <footer className="bg-black">
+        <footer className="bg-gradient-to-b from-black to-gray-900">
         {/* <!-- container --> */}
         <div className="container max-w-6xl py-10 mx-auto">
             {/* <!-- footer flex container --> */}
@@ -12,20 +15,20 @@ export default function Footer(){
                 <div className="flex flex-col items-center space-y-8 md:items-start md:space-y-8">
                     {/* <!-- logo --> */}
                     <div className="h-8">
-                        <img src="images/logo.png" alt="" className="w-44 md:ml-3"/>
+                        <img src={logo} alt="Jan Jennings Logo" className="w-44 md:ml-3"/>
                     </div>
                     {/* <!-- menu --> */}
                     <div className="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
                         {/* <!-- item 1 --> */}
                         <div className="h-10 group">
-                            <a href="#">About</a>
+                            <a href="/About">About</a>
                             <div className="mx-2 group-hover:border-b group-hover:border-blue-50">
 
                             </div>
                         </div>
                         {/* <!-- item 1 --> */}
                         <div className="h-10 group">
-                            <a href="#">Events</a>
+                            <a href="/Events">Events</a>
                             <div className="mx-2 group-hover:border-b group-hover:border-blue-50">
 
                             </div>
@@ -47,25 +50,25 @@ export default function Footer(){
                         {/* <!-- icon 1 --> */}
                         <div className="h-8 group">
                             <a href="#">
-                                <img src={facebookIcon} alt="" className="h-6"/>
+                                <img src={facebookIcon} alt="Facebook Icon" className="h-6"/>
                             </a>
                         </div>
                         {/* <!-- icon 2 --> */}
                         <div className="h-8 group">
                             <a href="#">
-                                <img src="images/icon-instagram.svg" alt="" className="h-6"/>
+                                <img src={instagramIcon} alt="Instagram Icon" className="h-6"/>
                             </a>
                         </div>
                         {/* <!-- icon 3 --> */}
                         <div className="h-8 group">
                             <a href="#">
-                                <img src="images/icon-pinterest.svg" alt="" className="h-6"/>
+                                <img src={pinterestIcon} alt="Pinterest Icon" className="h-6"/>
                             </a>
                         </div>
                     </div>
                     {/* <!-- copy --> */}
                     <div className="font-bold">
-                        &copy; 2022 Jan Jennings. All Rights Reserved
+                        &copy; 2023 Jan Jennings. All Rights Reserved
                     </div>
                 </div>
 

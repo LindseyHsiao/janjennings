@@ -1,8 +1,11 @@
-import janJenningLogo from '../assets/images/JanJennings.png'
 
+import janJenningLogo from '../assets/images/JanJennings.png'
+import {useState} from 'react';
 export default function Header() {
+const [toggle, setToggle] = useState(false)
+
     return (
-        <section className="bg-gray-900">
+        <section className="bg-gradient-to-b from-black to-gray-900">
         {/* <!-- Hero --> */}
         <div className="container max-w-6xl mx-auto px-6 py-12">
             {/* <!-- Menu/Logo Container --> */}
@@ -12,30 +15,30 @@ export default function Header() {
                 {/* <!-- Menu --> */}
                 <div className="hidden h-10 md:flex md:space-x-8">
                     <div className="group">
-                        <a href="#">Contact</a>
+                        <a href="/Contact">Contact</a>
                         <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                     </div>
                     <div className="group">
-                        <a href="#">Events</a>
+                        <a href="/Events">Events</a>
                         <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                     </div>
                     <div className="group">
-                        <a href="#">Lessons</a>
+                        <a href="/Lessons">Lessons</a>
                         <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                     </div>
                     <div className="group">
-                        <a href="#">Listen</a>
+                        <a href="/Listen">Listen</a>
                         <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                     </div>
                     <div className="group">
-                        <a href="#">About</a>
+                        <a href="/About">About</a>
                         <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
                     </div>
 
                 </div>
                 {/* <!-- hamburger button  --> */}
                 <div className="md:hidden">
-                    <button id="menu-btn" type="button" className="z-40 block hamburger md:hidden focus:outline-none">
+                    <button id="menu-btn" type="button" className={toggle ? "z-40 block hamburger md:hidden focus:outline-none open" : "z-40 block hamburger md:hidden focus:outline-none"} onClick={()=> setToggle(!toggle)}>
                         <span className="hamburger-top"></span>
                         <span className="hamburger-middle"></span>
                         <span className="hamburger-bottom"></span>
@@ -43,12 +46,12 @@ export default function Header() {
                 </div>
             </nav>
             {/* <!-- mobile menu --> */}
-            <div id="menu" className="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black">
-                <a href="#" className="hover:text-pink-500">Contact</a>
-                <a href="#" className="hover:text-pink-500">Events</a>
-                <a href="#" className="hover:text-pink-500">Lessons</a>
-                <a href="#" className="hover:text-pink-500">Listen</a>
-                <a href="#" className="hover:text-pink-500">About</a>
+            <div id="menu" className={toggle ? "absolute top-0 bottom-0 left-0 flex flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black" : "absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black"}>
+                <a href="/Contact" className="hover:text-pink-500">Contact</a>
+                <a href="/Events" className="hover:text-pink-500">Events</a>
+                <a href="/Lessons" className="hover:text-pink-500">Lessons</a>
+                <a href="/Listen" className="hover:text-pink-500">Listen</a>
+                <a href="/About" className="hover:text-pink-500">About</a>
             </div>
 
             
