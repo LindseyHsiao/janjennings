@@ -11,7 +11,7 @@ const [toggle, setToggle] = useState(false)
             {/* <!-- Menu/Logo Container --> */}
             <nav className="flex items-center justify-between font-bold text-white">
                 {/* <!-- Logo --> */}
-                <img className="" src={janJenningLogo} alt="Jan Jennings logo" />
+                <a href="/"><img className="" src={janJenningLogo} alt="Jan Jennings logo" /></a>
                 {/* <!-- Menu --> */}
                 <div className="hidden h-10 md:flex md:space-x-8">
                     <div className="group">

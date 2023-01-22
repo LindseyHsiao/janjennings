@@ -26,6 +26,10 @@
     .item-gradient {
         @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
     }
+
+    .section-container {
+        @apply max-w-6xl mx-auto text-center px-10;
+    }
     
 
 /* #hero {

@@ -12,35 +12,12 @@ export default function Footer(){
             {/* <!-- footer flex container --> */}
             <div className="flex flex-col items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start">
                 {/* <!-- menu and logo container  --> */}
-                <div className="flex flex-col items-center space-y-8 md:items-start md:space-y-8">
+                <div className="flex flex-col items-center space-y-8 md:items-start md:space-y-8 pb-10">
                     {/* <!-- logo --> */}
                     <div className="h-8">
                         <img src={logo} alt="Jan Jennings Logo" className="w-44 md:ml-3"/>
                     </div>
-                    {/* <!-- menu --> */}
-                    <div className="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
-                        {/* <!-- item 1 --> */}
-                        <div className="h-10 group">
-                            <a href="/About">About</a>
-                            <div className="mx-2 group-hover:border-b group-hover:border-blue-50">
-
-                            </div>
-                        </div>
-                        {/* <!-- item 1 --> */}
-                        <div className="h-10 group">
-                            <a href="/Events">Events</a>
-                            <div className="mx-2 group-hover:border-b group-hover:border-blue-50">
-
-                            </div>
-                        </div>
-                        {/* <!-- item 1 --> */}
-                        <div className="h-10 group">
-                            <a href="#">Support</a>
-                            <div className="mx-2 group-hover:border-b group-hover:border-blue-50">
-
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
 
                 {/* <!-- social and copy container --> */}
