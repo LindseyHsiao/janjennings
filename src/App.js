@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Recordings from './pages/Recordings';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/Lessons" element={<Home />} />
         <Route path="/Listen" element={<Home />} />
         <Route path="/About" element={<Home />} />
+        <Route path="/Recordings" element={<Recordings />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -50,7 +50,7 @@ export default function Home() {
                             <div className="item-gradient"></div>
                             {/* <!-- item text --> */}
                             <h5>
-                                Meet Jan
+                                Media
                             </h5>
                         </div>
                         {/* <!-- item 2 --> */}
@@ -79,14 +79,14 @@ export default function Home() {
 
                         {/* <!-- item 4 --> */}
                         <div className="group item">
-                            <img src={orchestra} alt=""
+                        <img src={orchestra} alt=""
                                 className="hidden w-full duration-200 md:block group-hover:scale-110" />
                             {/* <!-- item gradient --> */}
                             <div className="item-gradient"></div>
                             {/* <!-- item text --> */}
-                            <h5>
-                                Events
-                            </h5>
+                            <a href="/Recordings"><h5>
+                                Music <br/> & Books
+                            </h5></a>
                         </div>
 
                     </div>

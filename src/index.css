@@ -14,6 +14,20 @@
             @apply px-10 py-2 my-0 font-bold tracking-widest uppercase border-2 border-black hover:bg-black hover:text-white;
         }
     }
+
+    @layer base {
+        h3 {
+            @apply mb-8 text-4xl font-bold text-gray-900 uppercase md:text-xl
+        }
+    }
+
+    @layer base {
+        h4 {
+            @apply mb-2 text-2xl font-bold text-gray-900 uppercase md:text-xl
+        }
+    }
+
+
     
     .item-container {
         @apply flex flex-col justify-between w-full space-y-6 text-2xl text-white uppercase md:flex-row md:space-y-0 md:space-x-8;
@@ -29,6 +43,10 @@
 
     .section-container {
         @apply max-w-6xl mx-auto text-center px-10;
+    }
+
+    .section-content {
+        @apply max-w-3xl mx-auto text-xl leading-9 text-center text-gray-700
     }
     
 
