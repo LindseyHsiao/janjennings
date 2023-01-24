@@ -45,7 +45,7 @@ export default function Home() {
                         {/* <!-- item 1 --> */}
                         <div className="group item">
                             <img src={orchestra} alt=""
-                                className="hidden w-full duration-200 md:block group-hover:scale-110" />
+                                className="w-full duration-200 md:block group-hover:scale-110" />
                             {/* <!-- item gradient --> */}
                             <div className="item-gradient"></div>
                             {/* <!-- item text --> */}
@@ -56,19 +56,19 @@ export default function Home() {
                         {/* <!-- item 2 --> */}
                         <div className="group item">
                             <img src={sheetMusic} alt=""
-                                className="hidden w-full duration-200 md:block group-hover:scale-110" />
+                                className="w-full duration-200 md:block group-hover:scale-110" />
                             {/* <!-- item gradient --> */}
                             <div className="item-gradient"></div>
                             {/* <!-- item text --> */}
-                            <h5>
+                            <a href="/Listen"><h5>
                                 Listen
-                            </h5>
+                            </h5></a>
                         </div>
 
                         {/* <!-- item 3 --> */}
                         <div className="group item">
                             <img src={harpstrings} alt=""
-                                className="hidden w-full duration-200 md:block group-hover:scale-110" />
+                                className="w-full duration-200 md:block group-hover:scale-110" />
                             {/* <!-- item gradient --> */}
                             <div className="item-gradient"></div>
                             {/* <!-- item text --> */}
@@ -80,7 +80,7 @@ export default function Home() {
                         {/* <!-- item 4 --> */}
                         <div className="group item">
                         <img src={orchestra} alt=""
-                                className="hidden w-full duration-200 md:block group-hover:scale-110" />
+                                className="w-full duration-200 md:block group-hover:scale-110" />
                             {/* <!-- item gradient --> */}
                             <div className="item-gradient"></div>
                             {/* <!-- item text --> */}
