@@ -16,12 +16,11 @@ export default function Home() {
                     {/* <!-- text container --> */}
                     <div className="top-48 pr-0 bg-white md:absolute md:right-0 md:py-20 md:pl-20">
                         <h2 className="max-w-lg mt-10 mb-6 text-4xl text-center text-gray-900 uppercase md:mt-0 md:text-left">
-                            Lessons with Jan
+                            Experience & elegance
                         </h2>
                         <p className="max-w-md text-center md:text-left">
-                            Jan teaches both lever and pedal harp and attracts students from the entire southeast and Central
-                            Florida. Standard classical harp repertoire and theory are required, but she teaches arranging and
-                            improvisation. </p>
+                        Orlando harpist, Jan Jennings provides beautiful harp music for weddings, receptions, and special events. Jan has been a professional harp player in Orlando for more than 25 years and is considered one of the top harpists in the country. She can add elegance to your special occasion with harp music and string ensembles.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -86,6 +85,57 @@ export default function Home() {
                             {/* <!-- item text --> */}
                             <a href="/Recordings"><h5>
                                 Music <br/> & Books
+                            </h5></a>
+                        </div>
+
+                    </div>
+
+                    {/* <!-- items container 2 --> */}
+                    <div className="item-container my-20">
+                        {/* <!-- item 1 --> */}
+                        <div className="group item">
+                            <img src={orchestra} alt=""
+                                className="w-full duration-200 md:block group-hover:scale-110" />
+                            {/* <!-- item gradient --> */}
+                            <div className="item-gradient"></div>
+                            {/* <!-- item text --> */}
+                            <a href="/Contact"><h5>
+                                Contact
+                            </h5></a>
+                        </div>
+                        {/* <!-- item 2 --> */}
+                        <div className="group item">
+                            <img src={sheetMusic} alt=""
+                                className="w-full duration-200 md:block group-hover:scale-110" />
+                            {/* <!-- item gradient --> */}
+                            <div className="item-gradient"></div>
+                            {/* <!-- item text --> */}
+                            <a href="/Events"><h5>
+                                Events
+                            </h5></a>
+                        </div>
+
+                        {/* <!-- item 3 --> */}
+                        <div className="group item">
+                            <img src={harpstrings} alt=""
+                                className="w-full duration-200 md:block group-hover:scale-110" />
+                            {/* <!-- item gradient --> */}
+                            <div className="item-gradient"></div>
+                            {/* <!-- item text --> */}
+                            <a href="/Lessons"><h5>
+                                Lessons
+                            </h5></a>
+                        </div>
+
+                        {/* <!-- item 4 --> */}
+                        <div className="group item">
+                        <img src={orchestra} alt=""
+                                className="w-full duration-200 md:block group-hover:scale-110" />
+                            {/* <!-- item gradient --> */}
+                            <div className="item-gradient"></div>
+                            {/* <!-- item text --> */}
+                            <a href="/About"><h5>
+                                About
                             </h5></a>
                         </div>
 
