@@ -27,7 +27,7 @@ export default function Footer(){
                         {/* <!-- icon 1 --> */}
                         <div className="h-8 group">
                             <a href="#">
-                                <img src={facebookIcon} alt="Facebook Icon" className="h-6"/>
+                                <img src={facebookIcon} alt="Facebook Icon" className="duration-200 ficon h-6"/>
                             </a>
                         </div>
                         {/* <!-- icon 2 --> */}

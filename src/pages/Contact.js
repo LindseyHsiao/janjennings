@@ -17,7 +17,7 @@ export default function Contact() {
         </section>
 
        <section id="contact-details">
-        <div className="section-container my-20">
+        <div className="section-container contact">
             <div className="relative flex flex-col md:flex-row md:space-x-32">
                 {/* image */}
                 <div className="md:w-1/2">
@@ -28,7 +28,7 @@ export default function Contact() {
                     {/* item 1 */}
                     <div>
                         <h4>email</h4>
-                        <p className="max-w-md text-gray-700">mail@harpbiz.com</p>
+                        <a href='mailto:mail@harpbiz.com' className="max-w-md text-gray-700">mail@harpbiz.com</a>
                     </div>
                     {/* item 2 */}
                     <div>

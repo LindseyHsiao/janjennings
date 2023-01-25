@@ -48,7 +48,14 @@
     .section-content {
         @apply max-w-3xl mx-auto text-xl leading-9 text-center text-gray-700
     }
+
+    .contact{
+    max-width: 57rem !important;
+    }
     
+    /*.ficon:hover {
+        filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%)
+    }*/
 
 /* #hero {
     background-image: url('../images/hero-image.png');
