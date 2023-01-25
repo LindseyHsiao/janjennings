@@ -1,4 +1,4 @@
-import sheetMusic from '../assets/images/sheet-music.png'
+import sheetMusic from '../assets/images/sheet-music.jpg'
 
 
 export default function Contact() {
