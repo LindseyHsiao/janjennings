@@ -58,14 +58,14 @@
     }*/
 
 /* #hero {
-    background-image: url('../images/hero-image.png');
+    background-image: url('../images/hero-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 } */
 
 @media(max-width: 576px) {
     /* #hero {
-        background-image: url('../images/harpstrings.png');
+        background-image: url('../images/harpstrings.jpg');
         background-position: center;
     } */
 }
